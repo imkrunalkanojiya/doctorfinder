@@ -20,6 +20,8 @@
 		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
 		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
 
+		<jsp:include page="./templates/font-imports.jsp" />
+
 		<!-- Feathericon CSS -->
     	<link rel="stylesheet" href="assets/css/feather.css">
 
@@ -60,7 +62,7 @@
 								</div>
 							</div>
 							<div class="search-box-one aos" data-aos="fade-up">
-								<form action="#"> 
+								<form action="https://doccure.dreamstechnologies.com/html/template/search-2.html"> 
 									<div class="search-input search-line">
 										<i class="feather-search bficon"></i>
 										<div class=" mb-0">
@@ -263,7 +265,7 @@
 						<div class="item">
 							<div class="doctor-profile-widget doc-item">
 								<div class="doc-pro-img">
-									<a href="#">
+									<a href="doctor-profile.html">
 										<div class="doctor-profile-img">
 											<img src="assets/img/doctors/doctor-03.jpg" class="img-fluid" alt="Ruby Perrin">
 										</div>
@@ -275,7 +277,7 @@
 								<div class="doc-content">
 									<div class="doc-pro-info">
 										<div class="doc-pro-name">
-											<a href="#">Dr. Downer</a>
+											<a href="doctor-profile.html">Dr. Downer</a>
 											<p>Orthopedic</p>
 										</div>
 										<div class="reviews-ratings">
@@ -309,7 +311,7 @@
 								<div class="doc-content">
 									<div class="doc-pro-info">
 										<div class="doc-pro-name">
-											<a href="#">Dr. John Doe</a>
+											<a href="doctor-profile.html">Dr. John Doe</a>
 											<p>Dentist</p>
 										</div>
 										<div class="reviews-ratings">
@@ -331,7 +333,7 @@
 						<div class="item">
 							<div class="doctor-profile-widget doc-item">
 								<div class="doc-pro-img">
-									<a href="#">
+									<a href="doctor-profile.html">
 										<div class="doctor-profile-img">
 											<img src="assets/img/doctors/doctor-04.jpg" class="img-fluid" alt="Darren Elder">
 										</div>
@@ -343,7 +345,7 @@
 								<div class="doc-content">
 									<div class="doc-pro-info">
 										<div class="doc-pro-name">
-											<a href="#">Dr. Aviles</a>
+											<a href="doctor-profile.html">Dr. Aviles</a>
 											<p>Neurology</p>
 										</div>
 										<div class="reviews-ratings">
@@ -1079,7 +1081,10 @@
 			</svg>
 		</div>
 		<!-- /ScrollToTop -->
-			
+	
+		<!-- jQuery -->
+		<script data-cfasync="false" src="https://doccure.dreamstechnologies.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js" type="5325059b13f1f6b5faaa69bf-text/javascript"></script>
+		
 		<!-- Bootstrap Bundle JS -->
 		<script src="assets/js/bootstrap.bundle.min.js" type="5325059b13f1f6b5faaa69bf-text/javascript"></script>
 		
@@ -1108,4 +1113,6 @@
 		<!-- Custom JS -->
 		<script src="assets/js/script.js" type="5325059b13f1f6b5faaa69bf-text/javascript"></script>
 	
+	<script src="https://doccure.dreamstechnologies.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5325059b13f1f6b5faaa69bf-|49" defer></script></body>
+
 </html>
