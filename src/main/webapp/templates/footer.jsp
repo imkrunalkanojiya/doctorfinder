@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <footer class="footer footer-one">
     <div class="footer-top aos" data-aos="fade-up">
         <div class="container">

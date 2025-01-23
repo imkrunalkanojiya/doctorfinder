@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <header class="header header-custom header-fixed header-one home-head-one">
     <div class="container">
         <nav class="navbar navbar-expand-lg header-nav">
